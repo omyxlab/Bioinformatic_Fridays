@@ -34,4 +34,4 @@ Planned lesson files come in pairs: `Lesson_N_<Title>_Python_Track.md` and `Less
 
 ## Prerequisites
 
-[Module 3](../Module_3_GitHub/README.md) (committing your work), [Module 4](../Module_4_Conda/README.md) (installing packages), and outputs from Modules 6 to 8.
+[Module 3](../Module_03_GitHub/README.md) (committing your work), [Module 4](../Module_04_Conda/README.md) (installing packages), and outputs from Modules 6 to 8.

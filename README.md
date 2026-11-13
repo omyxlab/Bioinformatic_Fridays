@@ -13,16 +13,16 @@ Work through the modules in this order. The numbers in the folder names match th
 
 | Module | Title | Status |
 |--------|-------|--------|
-| [0](Module_0_Getting_Ready/README.md) | Getting Ready (WSL or TLJH, conda, course data) | Written |
-| [1](Module_1_Bioinformatics_Foundations/README.md) | Bioinformatics Foundations | Written |
-| [2](Module_2_Linux/README.md) | Linux for Bioinformatics | Partly written (Lesson 1 planned) |
-| [3](Module_3_GitHub/README.md) | GitHub for Bioinformatics | Written |
-| [4](Module_4_Conda/README.md) | Conda for Bioinformatics | Written |
-| [5](Module_5_Bash_Scripting/README.md) | Bash Scripting for Bioinformatics | Written (revision pending) |
-| [6](Module_6_Omics_QC_Trimming/README.md) | Omics, Quality Control, and Trimming | Partly written (trimming planned) |
-| [7](Module_7_Genome_Assembly/README.md) | Genome Assembly | Written |
-| [8](Module_8_Variant_Calling/README.md) | Variant Calling | Planned |
-| [9](Module_9_Programming_Python_R/README.md) | Programming for Data (Python or R) | Planned |
+| [0](Module_00_Getting_Ready/README.md) | Getting Ready (WSL or TLJH, conda, course data) | Written |
+| [1](Module_01_Bioinformatics_Foundations/README.md) | Bioinformatics Foundations | Written |
+| [2](Module_02_Linux/README.md) | Linux for Bioinformatics | Partly written (Lesson 1 planned) |
+| [3](Module_03_GitHub/README.md) | GitHub for Bioinformatics | Written |
+| [4](Module_04_Conda/README.md) | Conda for Bioinformatics | Written |
+| [5](Module_05_Bash_Scripting/README.md) | Bash Scripting for Bioinformatics | Written (revision pending) |
+| [6](Module_06_Omics_QC_Trimming/README.md) | Omics, Quality Control, and Trimming | Partly written (trimming planned) |
+| [7](Module_07_Genome_Assembly/README.md) | Genome Assembly | Written |
+| [8](Module_08_Variant_Calling/README.md) | Variant Calling | Planned |
+| [9](Module_09_Programming_Python_R/README.md) | Programming for Data (Python or R) | Planned |
 | [10](Module_10_Phylogenetics/README.md) | Phylogenetics | Planned |
 | [11](Module_11_Computational_Thinking/README.md) | Computational Thinking | Written (revision pending) |
 | [12](Module_12_Integration_and_Recap/README.md) | Integration and Recap | Written |

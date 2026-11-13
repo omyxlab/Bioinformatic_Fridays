@@ -229,9 +229,9 @@ _That was a quick overview of `sort` and `uniq`. We will explore these commands 
 
 ### 5) Save output with redirection
 `>` redirects output to a file and overwrites it if it exists.
-No output appears because it is written to `Module_2_Linux/healthy_files.txt`.
+No output appears because it is written to `Module_02_Linux/healthy_files.txt`.
 ```bash
-ls Training/short_reads/unpaired | grep Healthy > Module_2_Linux/healthy_files.txt
+ls Training/short_reads/unpaired | grep Healthy > Module_02_Linux/healthy_files.txt
 ```
 
 _NB: If you run the above command again, it will overwrite the contents of `healthy_files.txt`. To add to the file instead of overwriting, use `>>` see below._
@@ -239,7 +239,7 @@ _NB: If you run the above command again, it will overwrite the contents of `heal
 `>>` appends output to the end of a file.
 After this, the file contains Healthy and Case filenames, in the order you wrote them.
 ```bash
-ls Training/short_reads/unpaired | grep Case >> Module_2_Linux/healthy_files.txt
+ls Training/short_reads/unpaired | grep Case >> Module_02_Linux/healthy_files.txt
 ```
 
 ## Exercises
@@ -251,7 +251,7 @@ ls Training/short_reads/unpaired | grep Case >> Module_2_Linux/healthy_files.txt
 
 4) Use `sort` and `uniq` to list unique filenames in `Training/short_reads/unpaired`.
 
-5) Challenge: Use `wc -l` with both paired files in one command and redirect the output to `Module_2_Linux/read_line_counts.txt`.
+5) Challenge: Use `wc -l` with both paired files in one command and redirect the output to `Module_02_Linux/read_line_counts.txt`.
 
 6) Use `sort` and `uniq -c` to get a list of unique entries and then save that list to a file called `attendee_summary.txt`.
 
@@ -305,9 +305,9 @@ download.sh
 ```
 
 ### Solution 5
-`wc -l` can take multiple files and prints one line per file plus a total. No output appears because it is written to `Module_2_Linux/read_line_counts.txt`.
+`wc -l` can take multiple files and prints one line per file plus a total. No output appears because it is written to `Module_02_Linux/read_line_counts.txt`.
 ```bash
-wc -l Training/short_reads/paired/SRR1553607_1.fastq Training/short_reads/paired/SRR1553607_2.fastq > Module_2_Linux/read_line_counts.txt
+wc -l Training/short_reads/paired/SRR1553607_1.fastq Training/short_reads/paired/SRR1553607_2.fastq > Module_02_Linux/read_line_counts.txt
 ```
 
 ### Solution 6

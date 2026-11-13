@@ -30,7 +30,7 @@ drwxrwxrwx 1 bodeoni bodeoni     4096 Jan 16 16:45 SRR1553607
 ### 2) Create a script with `nano`
 `nano` opens a simple text editor in the terminal.
 ```bash
-nano Module_2_Linux/summarize_fastq.sh
+nano Module_02_Linux/summarize_fastq.sh
 ```
 Paste the script below into `nano` (save with `Ctrl+O`, exit with `Ctrl+X`):
 This script uses `wc -l` to count lines and `head -n 1` to show the first header line.
@@ -53,7 +53,7 @@ done
 ### 3) Run the script with `bash`
 `bash` runs the script using the Bash interpreter.
 ```bash
-bash Module_2_Linux/summarize_fastq.sh
+bash Module_02_Linux/summarize_fastq.sh
 ```
 Output:
 ```
@@ -70,25 +70,25 @@ LINES: 34268
 `chmod +x` adds the execute (`x`) permission.
 No output appears when it succeeds.
 ```bash
-chmod +x Module_2_Linux/summarize_fastq.sh
+chmod +x Module_02_Linux/summarize_fastq.sh
 ```
 
 Now you can run it directly using a relative path.
 ```bash
-./Module_2_Linux/summarize_fastq.sh
+./Module_02_Linux/summarize_fastq.sh
 ```
 
 ## Exercises
-1) Create a script named `fastq_summary.sh` in `Module_2_Linux/` that loops over all FASTQ files in `Training/long_reads` and prints:
+1) Create a script named `fastq_summary.sh` in `Module_02_Linux/` that loops over all FASTQ files in `Training/long_reads` and prints:
 - filename
 - line count
 - first header line
 
-2) Run the script from the `Module_2_Linux/` directory using a relative path.
+2) Run the script from the `Module_02_Linux/` directory using a relative path.
 
 3) Make your script executable and run it without calling `bash` explicitly.
 
-4) Create a `results/` folder inside `Module_2_Linux/` and redirect the script output to `results/long_reads_summary.txt`.
+4) Create a `results/` folder inside `Module_02_Linux/` and redirect the script output to `results/long_reads_summary.txt`.
 
 5) Challenge: Extend your script to include `Training/short_reads/paired/SRR1553607_1.fastq` and `Training/short_reads/paired/SRR1553607_2.fastq`, and print an estimated read count for each (lines / 4).
 
@@ -97,7 +97,7 @@ Now you can run it directly using a relative path.
 ### Solution 1
 `nano` opens the file so you can paste the script.
 ```bash
-nano Module_2_Linux/fastq_summary.sh
+nano Module_02_Linux/fastq_summary.sh
 ```
 Script content:
 ```bash
@@ -114,22 +114,22 @@ done
 ### Solution 2
 `./` runs a script from the current directory.
 ```bash
-cd Module_2_Linux
+cd Module_02_Linux
 bash ./fastq_summary.sh
 ```
 
 ### Solution 3
 `chmod +x` makes the script executable.
 ```bash
-chmod +x Module_2_Linux/fastq_summary.sh
+chmod +x Module_02_Linux/fastq_summary.sh
 ./fastq_summary.sh
 ```
 
 ### Solution 4
 `mkdir -p` creates the folder, and `>` redirects output to a file.
 ```bash
-mkdir -p Module_2_Linux/results
-Module_2_Linux/fastq_summary.sh > Module_2_Linux/results/long_reads_summary.txt
+mkdir -p Module_02_Linux/results
+Module_02_Linux/fastq_summary.sh > Module_02_Linux/results/long_reads_summary.txt
 ```
 
 ### Solution 5

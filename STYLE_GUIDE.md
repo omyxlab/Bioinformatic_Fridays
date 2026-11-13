@@ -32,7 +32,7 @@ Lessons and module READMEs contain **no emoji** and no decorative symbols in hea
 
 ## 3. File and folder naming
 
-- **Modules:** `Module_<N>_<ShortName>/` where `<N>` starts at `0`. Example: `Module_0_Getting_Ready/`, `Module_1_Bioinformatics_Foundations/`.
+- **Modules:** `Module_<NN>_<ShortName>/` where `<NN>` is the module number as **two digits**, starting at `00`, so folders sort in teaching order. Example: `Module_00_Getting_Ready/`, `Module_01_Bioinformatics_Foundations/`.
 - **Lessons:** `Lesson_<N>_<Title_In_Title_Case>.md`, `<N>` starts at `1`. Example: `Lesson_2_Text_Processing_and_Pipes.md`. Use underscores, not spaces or hyphens.
 - **Parallel tracks:** append the track: `Lesson_3_Reading_Data_Python_Track.md`, `Lesson_3_Reading_Data_R_Track.md`.
 - **Supporting files (fixed names):** `README.md`, `Exercises.md`, `Solutions.md`, `GLOSSARY.md`, `File_Formats_Reference.md`.
@@ -98,7 +98,7 @@ When a step is identical on both, write it once with no callout. Never assume on
 
 - **Glossary:** on first use of a key term in a lesson, link it: `[ortholog](../GLOSSARY.md#ortholog)`. Keep `GLOSSARY.md` entries to one line each, alphabetical, with an `## anchor` heading per term.
 - **File formats:** link format mentions to the cheat-sheet: `[FASTQ](../File_Formats_Reference.md#fastq)`. Teach a format's full mechanics only once, at the point it is first produced; elsewhere, link.
-- **Other modules:** reference by number and link: `[Module 5](../Module_5_Bash_Scripting/README.md)`. Do not hardcode a lesson's position if a link will do.
+- **Other modules:** reference by number and link: `[Module 5](../Module_05_Bash_Scripting/README.md)`. Do not hardcode a lesson's position if a link will do.
 
 ---
 

@@ -250,7 +250,7 @@ Output (if the original repo had new commits):
 ```
 Updating f4a52b1..9d3e7c2
 Fast-forward
- Module_2_Linux/README.md | 2 ++
+ Module_02_Linux/README.md | 2 ++
  1 file changed, 2 insertions(+)
 ```
 

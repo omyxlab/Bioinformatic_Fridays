@@ -31,7 +31,7 @@ That is about 105 minutes of content, leaving time for a break and questions.
 
 ## Course data used in this module
 
-The examples use files from the `Training/` folder you downloaded in [Module 0](../Module_0_Getting_Ready/README.md):
+The examples use files from the `Training/` folder you downloaded in [Module 0](../Module_00_Getting_Ready/README.md):
 
 | Files | What they are |
 |-------|---------------|

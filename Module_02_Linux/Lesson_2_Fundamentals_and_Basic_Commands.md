@@ -141,19 +141,19 @@ Output:
 `mkdir -p` uses the `-p` option to create parent folders if they do not exist.
 No output is expected when it succeeds.
 ```bash
-mkdir -p Module_2_Linux/workspace
+mkdir -p Module_02_Linux/workspace
 ```
 
 `cp` copies a file, and `mv` renames or moves a file.
 No output is expected when these commands succeed.
 ```bash
-cp Training/short_reads/unpaired/download.sh Module_2_Linux/workspace/
-mv Module_2_Linux/workspace/download.sh Module_2_Linux/workspace/download_script.sh
+cp Training/short_reads/unpaired/download.sh Module_02_Linux/workspace/
+mv Module_02_Linux/workspace/download.sh Module_02_Linux/workspace/download_script.sh
 ```
 
 `rm` deletes a file permanently, so double-check the path before you run it.
 ```bash
-rm Module_2_Linux/workspace/download_script.sh
+rm Module_02_Linux/workspace/download_script.sh
 ```
 
 ## Exercises
@@ -167,7 +167,7 @@ rm Module_2_Linux/workspace/download_script.sh
 
 5) Use `grep -m 1 "^@"` on `Training/short_reads/paired/SRR1553607_2.fastq`. What does the first header line look like?
 
-6) Create a workspace inside `Module_2_Linux/` and copy `Training/short_reads/unpaired/download.sh` into it with a new name of your choice.
+6) Create a workspace inside `Module_02_Linux/` and copy `Training/short_reads/unpaired/download.sh` into it with a new name of your choice.
 
 7) Challenge: Use `wc -l` to estimate the number of reads in `Training/short_reads/paired/SRR1553607_1.fastq` and `Training/short_reads/paired/SRR1553607_2.fastq`. Are they the same?
 
@@ -228,9 +228,9 @@ Output:
 ### Solution 6
 `mkdir -p` creates the workspace and `cp` copies the file into it.
 ```bash
-mkdir -p Module_2_Linux/workspace
-cp Training/short_reads/unpaired/download.sh Module_2_Linux/workspace/download_copy.sh
-ls Module_2_Linux/workspace
+mkdir -p Module_02_Linux/workspace
+cp Training/short_reads/unpaired/download.sh Module_02_Linux/workspace/download_copy.sh
+ls Module_02_Linux/workspace
 ```
 Output:
 ```

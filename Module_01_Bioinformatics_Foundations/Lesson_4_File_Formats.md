@@ -19,7 +19,7 @@ Three formats cover most of what you will see early on:
 | **FASTQ** | Sequencing reads with quality scores | Four lines per read; header lines start with `@` |
 | **GenBank** | A sequence plus rich annotation (genes, source, references) | Starts with `LOCUS` |
 
-In this lesson you will use three commands to look at real files. They are explained properly in [Module 2](../Module_2_Linux/README.md); for now, copy them as written.
+In this lesson you will use three commands to look at real files. They are explained properly in [Module 2](../Module_02_Linux/README.md); for now, copy them as written.
 
 | Command | What it does |
 |---------|--------------|

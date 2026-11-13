@@ -6,7 +6,7 @@ This module takes a sequencing sample from raw reads to a list of variants. You 
 
 ## Planned dataset
 
-The Ebola virus sample `SRR1553607` (paired-end Illumina reads in `Training/short_reads/paired/`, trimmed in Module 6) is mapped against the reference genome `NC_002549.1`, a 1976 isolate from the Democratic Republic of the Congo. The sample is from the 2014 outbreak, so the two genomes are about four decades apart. The reference is downloaded from NCBI by accession; if you already downloaded it in [Module 1](../Module_1_Bioinformatics_Foundations/Lesson_4_File_Formats.md), you can reuse it.
+The Ebola virus sample `SRR1553607` (paired-end Illumina reads in `Training/short_reads/paired/`, trimmed in Module 6) is mapped against the reference genome `NC_002549.1`, a 1976 isolate from the Democratic Republic of the Congo. The sample is from the 2014 outbreak, so the two genomes are about four decades apart. The reference is downloaded from NCBI by accession; if you already downloaded it in [Module 1](../Module_01_Bioinformatics_Foundations/Lesson_4_File_Formats.md), you can reuse it.
 
 ## Planned learning objectives
 
@@ -33,7 +33,7 @@ Optional extras: annotating variants with SnpEff, and a brief mention of other c
 
 ## Prerequisites
 
-[Module 6](../Module_6_Omics_QC_Trimming/README.md) (trimmed Ebola reads), [Module 4](../Module_4_Conda/README.md) (the `bioinfo` environment, which needs `bwa`, `samtools`, and `bcftools`), and [Module 1](../Module_1_Bioinformatics_Foundations/README.md) (the vocabulary of variants and alignment).
+[Module 6](../Module_06_Omics_QC_Trimming/README.md) (trimmed Ebola reads), [Module 4](../Module_04_Conda/README.md) (the `bioinfo` environment, which needs `bwa`, `samtools`, and `bcftools`), and [Module 1](../Module_01_Bioinformatics_Foundations/README.md) (the vocabulary of variants and alignment).
 
 ## Design notes
 

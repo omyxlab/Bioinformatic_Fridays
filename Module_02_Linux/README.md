@@ -35,4 +35,4 @@ By the end of this module, you will be able to:
 
 > Note: All examples and exercises use the data in `Training/`.
 
-> Note: In [Module 1](../Module_1_Bioinformatics_Foundations/README.md) you used `head`, `grep`, and `wc` to look inside sequence files. This module explains those commands properly.
+> Note: In [Module 1](../Module_01_Bioinformatics_Foundations/README.md) you used `head`, `grep`, and `wc` to look inside sequence files. This module explains those commands properly.

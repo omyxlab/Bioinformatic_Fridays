@@ -89,7 +89,7 @@ This will create the file and set the correct permissions.
 `scp local_file user@remotehost:remote_path` copies a file from **local** to **remote**.
 
 ```bash
-scp Module_2_Linux/notes.txt student@172.16.12.88:~/bioinformatics/
+scp Module_02_Linux/notes.txt student@172.16.12.88:~/bioinformatics/
 ```
 
 ### 4) Copy results back to your laptop
@@ -97,5 +97,5 @@ scp Module_2_Linux/notes.txt student@172.16.12.88:~/bioinformatics/
 `scp user@host:remote_file local_path` copies a file from remote to local.
 
 ```bash
-scp student@172.16.12.88:~/bioinformatics/results.txt Module_2_Linux/
+scp student@172.16.12.88:~/bioinformatics/results.txt Module_02_Linux/
 ```

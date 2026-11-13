@@ -2,7 +2,7 @@
 
 This module is where you rebuild genomes from sequencing reads and identify what you have assembled. You will assemble long reads de novo, remove host contamination, annotate the contigs with BLAST, and then use a reference to guide assembly and generate a consensus sequence.
 
-It builds on [Module 1](../Module_1_Bioinformatics_Foundations/README.md), which introduced alignment, reference-based and de novo assembly, contigs, and graphs, and on [Module 6](../Module_6_Omics_QC_Trimming/README.md), which covers quality control.
+It builds on [Module 1](../Module_01_Bioinformatics_Foundations/README.md), which introduced alignment, reference-based and de novo assembly, contigs, and graphs, and on [Module 6](../Module_06_Omics_QC_Trimming/README.md), which covers quality control.
 
 ## Learning objectives
 

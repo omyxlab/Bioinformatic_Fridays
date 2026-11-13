@@ -2,7 +2,7 @@
 
 This module covers the first steps of any sequencing analysis: checking the quality of raw reads and cleaning them. You will use FastQC and MultiQC to assess data health, then trim poor-quality bases and artificial sequence from the reads.
 
-This module builds on [Module 1](../Module_1_Bioinformatics_Foundations/README.md), where you met reads, quality scores, and the FASTQ format, and on [Module 4](../Module_4_Conda/README.md), which gives you the `bioinfo` environment.
+This module builds on [Module 1](../Module_01_Bioinformatics_Foundations/README.md), where you met reads, quality scores, and the FASTQ format, and on [Module 4](../Module_04_Conda/README.md), which gives you the `bioinfo` environment.
 
 ## Learning objectives
 

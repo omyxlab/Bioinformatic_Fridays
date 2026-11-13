@@ -1,6 +1,6 @@
 # Module 5 — Bash Scripting for Bioinformatics
 
-> **Revision pending.** This module moved from Module 7 to Module 5 in the new teaching order, so it now comes *before* quality control, assembly, and the computational thinking module. Some text still describes those as already done (for example "Modules 1–6" below), and Lesson 6 runs FastQC, which is first taught in [Module 6](../Module_6_Omics_QC_Trimming/README.md). Revise the framing, and either teach a minimal FastQC introduction first or swap the tool in Lesson 6.
+> **Revision pending.** This module moved from Module 7 to Module 5 in the new teaching order, so it now comes *before* quality control, assembly, and the computational thinking module. Some text still describes those as already done (for example "Modules 1–6" below), and Lesson 6 runs FastQC, which is first taught in [Module 6](../Module_06_Omics_QC_Trimming/README.md). Revise the framing, and either teach a minimal FastQC introduction first or swap the tool in Lesson 6.
 
 ## Module Overview
 

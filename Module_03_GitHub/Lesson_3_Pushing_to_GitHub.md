@@ -238,7 +238,7 @@ ls Bioinformatic_Fridays
 
 Output:
 ```
-File_Formats_Reference.md  GLOSSARY.md  Module_0_Getting_Ready  Module_10_Phylogenetics  Module_11_Computational_Thinking  Module_12_Integration_and_Recap  Module_13_Capstone  Module_1_Bioinformatics_Foundations  Module_2_Linux  Module_3_GitHub  Module_4_Conda  Module_5_Bash_Scripting  Module_6_Omics_QC_Trimming  Module_7_Genome_Assembly  Module_8_Variant_Calling  Module_9_Programming_Python_R  README.md  STYLE_GUIDE.md
+File_Formats_Reference.md  GLOSSARY.md  Module_00_Getting_Ready  Module_01_Bioinformatics_Foundations  Module_02_Linux  Module_03_GitHub  Module_04_Conda  Module_05_Bash_Scripting  Module_06_Omics_QC_Trimming  Module_07_Genome_Assembly  Module_08_Variant_Calling  Module_09_Programming_Python_R  Module_10_Phylogenetics  Module_11_Computational_Thinking  Module_12_Integration_and_Recap  Module_13_Capstone  README.md  STYLE_GUIDE.md
 ```
 
 The entire repository, including all history, is now on your machine.

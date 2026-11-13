@@ -23,8 +23,8 @@ This module teaches how to place sequences in a phylogenetic tree: align them, i
 
 ## Candidate practice data
 
-The five Ebola virus reference genomes downloaded in [Module 1, Lesson 4](../Module_1_Bioinformatics_Foundations/Lesson_4_File_Formats.md) (`ebolavirus_refseq.fasta`), and the consensus genome from Module 8, are natural inputs for practising the workflow before the capstone.
+The five Ebola virus reference genomes downloaded in [Module 1, Lesson 4](../Module_01_Bioinformatics_Foundations/Lesson_4_File_Formats.md) (`ebolavirus_refseq.fasta`), and the consensus genome from Module 8, are natural inputs for practising the workflow before the capstone.
 
 ## Prerequisites
 
-[Module 1](../Module_1_Bioinformatics_Foundations/README.md) (trees and homology), [Module 4](../Module_4_Conda/README.md), and [Module 8](../Module_8_Variant_Calling/README.md).
+[Module 1](../Module_01_Bioinformatics_Foundations/README.md) (trees and homology), [Module 4](../Module_04_Conda/README.md), and [Module 8](../Module_08_Variant_Calling/README.md).
