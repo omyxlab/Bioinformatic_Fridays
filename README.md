@@ -15,7 +15,7 @@ Work through the modules in this order. The numbers in the folder names match th
 |--------|-------|--------|
 | [0](Module_00_Getting_Ready/README.md) | Getting Ready (WSL or TLJH, conda, course data) | Written |
 | [1](Module_01_Bioinformatics_Foundations/README.md) | Bioinformatics Foundations | Written |
-| [2](Module_02_Linux/README.md) | Linux for Bioinformatics | Partly written (Lesson 1 planned) |
+| [2](Module_02_Linux/README.md) | Linux for Bioinformatics | Written |
 | [3](Module_03_GitHub/README.md) | GitHub for Bioinformatics | Written |
 | [4](Module_04_Conda/README.md) | Conda for Bioinformatics | Written |
 | [5](Module_05_Bash_Scripting/README.md) | Bash Scripting for Bioinformatics | Written (revision pending) |

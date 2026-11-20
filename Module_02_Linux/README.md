@@ -19,14 +19,14 @@ By the end of this module, you will be able to:
 
 | Lesson | Title | Status |
 |--------|-------|--------|
-| 1 | How Linux Works | Planned (not yet written) |
+| 1 | How Linux Works | Ready |
 | 2 | Fundamentals and basic commands | Ready |
 | 3 | Text processing, pipes, and redirection | Ready |
 | 4 | Scripting and permissions | Ready |
 | 5 | SSH and remote work | Ready |
 | 6 | Absolute and relative paths | Ready |
 
-- **Lesson 1** is a concepts lesson with no commands to memorise: what an operating system and a kernel are, the shell and the terminal, the Linux filesystem, and why "everything is a file".
+- **Lesson 1** is a concepts lesson with only a few look-around commands: what an operating system and a kernel are, the shell and the terminal, Linux distributions, the filesystem from the root directory down, your home directory, and why "everything is a file".
 - **Lesson 2** covers navigation, file listing, and basic file operations.
 - **Lesson 3** introduces `grep`, `sort`, `uniq`, and combining commands with pipes.
 - **Lesson 4** explains executable scripts, permissions, and safe automation.
